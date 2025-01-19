@@ -8,7 +8,7 @@
   <script defer src="index.js"></script>
 </head>
 <body>
-  <h1>Parties</h1>
+  <h1>Upcoming Parties</h1>
     <form id="addParty">
       <label>
         Name
@@ -19,12 +19,8 @@
         <input type="text" name="description" />
       </label>
       <label>
-        Date
-        <input type="date" name="date" />
-      </label>
-      <label>
-        Time
-        <input type="time" name="time" />
+        Date and Time
+        <input type="datetime-local" name="date" />
       </label>
       <label>
         Location
@@ -32,6 +28,6 @@
       </label>
       <button>Add Party</button>
     </form>
-    <ul id="artists"></ul>
+    <ul id="parties"></ul>
 </body>
 </html>
